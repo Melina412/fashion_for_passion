@@ -14,17 +14,17 @@
         <div class="logo">
           <img src="./assets/img/images/6.png" alt="" />
         </div>
-        <div class="menu">
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>SERVICE</li>
-            <li>BLOG</li>
-            <li>AWARD</li>
-            <li>CONTACT</li>
-          </ul>
-        </div>
+        <!-- <div class="menu"> -->
+        <ul class="menu">
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>WORK</li>
+          <li>SERVICE</li>
+          <li>BLOG</li>
+          <li>AWARD</li>
+          <li>CONTACT</li>
+        </ul>
+        <!-- </div> -->
       </nav>
 
       <!-- ! ---------- home section ---------- -->
@@ -37,11 +37,21 @@
           style="background-image: url('./assets/img/images/14.png')"
         >
           <div class="home-content">
+            <!-- <div class="home-container"> -->
+            <!-- --- home left --- -->
             <div class="home-left">
-              <img src="./assets/img/images/22.jpeg" alt="" />
-              <div>
-                <img src="./assets/img/images/10.png" alt="" />
-                <div>
+              <img
+                class="home-left-img"
+                src="./assets/img/images/22.jpeg"
+                alt=""
+              />
+              <div class="home-left-text-wrapper">
+                <img
+                  class="stars-icon"
+                  src="./assets/img/images/10.png"
+                  alt=""
+                />
+                <div class="home-left-text">
                   <img
                     class="arrow"
                     src="./assets/img/images/18.png"
@@ -52,24 +62,49 @@
                 </div>
               </div>
             </div>
+
+            <!-- --- home middle --- -->
             <div class="home-middle">
-              <div>
-                <img src="./assets/img/images/lightbox.svg" alt="" />
+              <div class="home-middle-text">
+                <img
+                  class="play-icon"
+                  src="./assets/img/images/lightbox.svg"
+                  alt=""
+                />
                 <h1>Unrivaled Shally</h1>
-                <h4>A Creative Fashion</h4>
+                <h4>A Creative <span>Fashion</span></h4>
                 <h4>Designer</h4>
               </div>
-              <img src="./assets/img/images/11.png" alt="" />
-              <img src="./assets/img/images/17.jpeg" alt="" />
+
+              <div class="img-icon-flex">
+                <img
+                  class="stripes-icon"
+                  src="./assets/img/images/11.png"
+                  alt=""
+                />
+                <img
+                  class="home-middle-img"
+                  src="./assets/img/images/17.jpeg"
+                  alt=""
+                />
+              </div>
             </div>
+
+            <!-- --- home right --- -->
             <div class="home-right">
-              <img src="./assets/img/images/24.jpeg" alt="" />
+              <div class="home-video-wrapper">
+                <video autoplay loop>
+                  <source src="./assets/img/gif/daisy.mp4" />
+                  Your browser does not support mp4-videos.
+                </video>
+              </div>
               <p>
                 Working as a <span>creative and outsource</span> your fashion
                 design project and get it quickly done and delivered remotely
-                oneline
+                online
               </p>
             </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
@@ -224,7 +259,7 @@
         </div>
       </section>
 
-      <!-- ! ---------- service section ---------- -->
+      <!-- ! ---------- blogs section ---------- -->
       <section class="blogs">
         <div class="blogs-content">
           <h2>My Blogs</h2>
@@ -278,7 +313,7 @@
       <!-- ! ---------- video section ---------- -->
       <section class="video">
         <div class="video-wrapper">
-          <video width="1920" height="800" autoplay>
+          <video autoplay>
             <source src="./assets/img/gif/sparkler.mp4" />
             <!-- <img src="./assets/img/gif/sparkler.gif" alt="fallback-GIF" /> -->
             Your browser does not support mp4-videos or GIFs.
