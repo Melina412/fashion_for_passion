@@ -83,6 +83,18 @@ a {
   color: #fff;
 }
 
+.home-content,
+.about-content,
+.portfolio-content,
+.service-top,
+.service-content,
+.blogs-content,
+.award-content,
+.contact-top,
+.contact-content {
+  width: 70vw;
+}
+
 /* * ---------- header style ---------- */
 
 nav {
@@ -91,6 +103,11 @@ nav {
   justify-content: space-between;
   height: 8.3rem;
   padding: 0 5rem;
+  position: fixed;
+  width: 100vw;
+  background-color: #272422;
+  border: 0.1rem solid #333337;
+  z-index: 2;
 }
 
 .menu {
@@ -107,16 +124,25 @@ nav {
 .home {
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 
 .home-content {
-  width: 80vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 23.3% 45.7% 31%;
   justify-items: center;
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 10%;
+}
+
+.home-background-arrow {
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  margin-top: 25rem;
+  width: 100%;
+  height: 100%;
 }
 
 /* * ---------- home left side ---------- */
@@ -130,6 +156,7 @@ nav {
 
 .home-left-img {
   margin-top: 95%;
+  width: 100%;
 }
 
 .home-left-text-wrapper {
@@ -155,12 +182,13 @@ nav {
 /* * ---------- home right side ---------- */
 
 .home-video-wrapper {
-  width: auto;
-  height: 60%;
+  height: 50%;
   overflow: hidden;
+  margin-top: 20%;
 }
 
 .home video {
+  width: 100%;
   height: auto;
 }
 
@@ -194,7 +222,7 @@ nav {
   gap: 10rem;
   width: 70%;
   margin-left: 15%;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .home-middle-img {
@@ -208,11 +236,6 @@ nav {
 
 .img-icon-flex {
   display: flex;
-}
-
-.home-background-arrow {
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .home-middle-text {
@@ -235,7 +258,6 @@ nav {
 /* * ---------- about section ---------- */
 
 .about-content {
-  width: 80vw;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -263,7 +285,6 @@ nav {
 /* .......... headline & topper */
 
 .portfolio-content {
-  width: 80vw;
   margin: 0 auto;
 }
 
@@ -353,7 +374,6 @@ nav {
 /* * ---------- service section ---------- */
 
 .service-top {
-  width: 80vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -371,7 +391,6 @@ nav {
 }
 
 .service-content {
-  width: 80vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
@@ -416,8 +435,7 @@ nav {
 /* .......... headline & topper */
 
 .blogs-content {
-  width: 80vw;
-  margin: 0 auto;
+  margin: 0 auto 10% auto;
 }
 
 .blogs-content h2 {
@@ -510,11 +528,10 @@ nav {
 /* * ---------- award section ---------- */
 
 .award {
-  margin-top: 10rem;
+  margin: 10% auto;
 }
 
 .award-content {
-  width: 80vw;
   margin: 0 auto;
 }
 
@@ -549,7 +566,6 @@ nav {
 /* * ---------- contact section ---------- */
 
 .contact-top {
-  width: 80vw;
   margin: 0 auto;
   border-bottom: 0.1rem solid #3f3a36;
   height: 4.3rem;
@@ -558,7 +574,6 @@ nav {
 }
 
 .contact-content {
-  width: 80vw;
   margin: 0 auto;
 }
 
