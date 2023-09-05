@@ -58,6 +58,13 @@ p {
 
 button {
   font-size: 1.5rem;
+  width: 19rem;
+  height: 9rem;
+  padding: 0 3.3rem;
+  color: #fff;
+  background-color: #272422;
+  border: 0.1rem solid #3c3636;
+  border-radius: 8.4rem;
 }
 
 .menu li {
@@ -222,6 +229,31 @@ nav {
 .home-middle span {
   color: #e8bf96;
 }
+
+/* * ---------- about section ---------- */
+
+.about-content {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-content h2 {
+  width: 65%;
+}
+
+.about-content p {
+  font-size: 1.8rem;
+  line-height: 155%;
+  width: 50%;
+  margin-bottom: 6rem;
+}
+
+/* * ---------- portfolio section ---------- */
 
 /* * ---------- video section ---------- */
 
