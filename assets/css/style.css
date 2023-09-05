@@ -342,6 +342,8 @@ nav {
 
 /* # hover effect & richtiger bereich kleine bilder fehlen noch */
 
+/* # bildgröße in relative einheiten ändern */
+
 /* * ---------- service section ---------- */
 
 .service-top {
@@ -365,7 +367,42 @@ nav {
 .service-content {
   width: 80vw;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  padding-top: 10%;
 }
+
+.images {
+  position: relative;
+  display: inline-block;
+}
+
+.images img {
+  position: absolute;
+}
+
+.left-img-wrapper img {
+  width: 33rem;
+  height: 45.2rem;
+  left: 0;
+  top: 25%;
+}
+
+.right-img-wrapper img {
+  width: 22rem;
+  height: 28.5rem;
+  right: 0;
+}
+
+.service-types {
+  text-align: center;
+  display: grid;
+  gap: 10%;
+  margin-bottom: 50%;
+}
+/* # hover effekte bilder und font color fehlen noch */
+
+/* # bildgröße in relative einheiten ändern */
 
 /* * ---------- video section ---------- */
 
