@@ -416,15 +416,21 @@ nav {
 }
 
 .left-img-wrapper img {
-  width: 33rem;
-  height: 45.2rem;
+  /* width: 33rem;
+  height: 45.2rem; */
+
+  width: auto;
+  height: 55%;
   left: 0;
-  top: 25%;
+  top: 35%;
 }
 
 .right-img-wrapper img {
-  width: 22rem;
-  height: 28.5rem;
+  /* width: 22rem;
+  height: 28.5rem; */
+
+  width: auto;
+  height: 45%;
   right: 0;
 }
 
@@ -603,10 +609,10 @@ footer {
 }
 
 .footer-container {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1.3fr 1fr 1fr 2.2fr 4.5fr;
-  gap: 12%;
+  gap: 3vw;
 }
 
 footer img {
@@ -645,11 +651,11 @@ fieldset {
 }
 
 .email-submit {
-  width: 42rem;
+  width: 100%;
 }
 
 #email {
-  width: 42rem;
+  width: 100%;
   background-color: #272422;
   border-style: none;
 }

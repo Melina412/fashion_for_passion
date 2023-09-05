@@ -1,0 +1,57 @@
+/* --------------- medium screen version --------------- */
+@media screen and (max-width: 1400px) {
+  /* *content-width & margin */
+
+  .home-content,
+  .about-content,
+  .portfolio-content,
+  .service-top,
+  .service-content,
+  .blogs-content,
+  .award-content,
+  .contact-top,
+  .contact-content {
+    width: 80vw;
+  }
+
+  .portfolio-wrapper-one {
+    margin-bottom: 15rem;
+  }
+
+  /* * font size */
+
+  h1 {
+    font-size: 14rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: #999;
+  }
+
+  .links-wrapper-one,
+  .links-wrapper-two {
+    font-size: 1.4rem;
+  }
+
+  .social-links-wrapper a {
+    font-size: 1.5rem;
+  }
+}
+
+/* --------------- tablet version --------------- */
+@media screen and (max-width: 820px) {
+}
+
+/* --------------- mobile version --------------- */
+
+@media screen and (max-width: 576px) {
+}
