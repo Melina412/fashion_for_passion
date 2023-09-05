@@ -349,7 +349,6 @@ nav {
 .branding {
   height: 90%;
   width: 50%;
-  /* position: relative; */
 }
 
 .creative,
@@ -378,11 +377,7 @@ nav {
   margin: 20% 0 0 10%;
 }
 
-.development:hover .hover-text {
-  display: 1;
-}
-
-/* # hover effect & richtiger bereich kleine bilder fehlen noch */
+/* # hover effect text*/
 
 /* * ---------- service section ---------- */
 
@@ -411,15 +406,6 @@ nav {
   border-bottom: 1px solid #3f3a36;
 }
 
-.images {
-  position: relative;
-  display: inline-block;
-}
-
-.images img {
-  position: absolute;
-}
-
 .left-img-wrapper img {
   /* width: 33rem;
   height: 45.2rem; */
@@ -445,6 +431,30 @@ nav {
   gap: 10%;
   margin-bottom: 50%;
 }
+
+/* * ---------- hover effect ---------- */
+
+.text {
+  cursor: pointer;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  position: absolute;
+  display: none;
+}
+
+.text:hover + .service-wrapper .image-container .image[data-image="1"],
+.text:hover + .service-wrapper .image-container .image[data-image="2"],
+.text:hover + .service-wrapper .image-container .image[data-image="3"],
+.text:hover + .service-wrapper .image-container .image[data-image="4"] {
+  display: block;
+}
+
 /* # hover effekte bilder und font color fehlen noch */
 
 /* * ---------- blogs section ---------- */
