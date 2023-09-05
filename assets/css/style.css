@@ -287,6 +287,63 @@ nav {
   display: flex;
 }
 
+.portfolio-wrapper-one,
+.portfolio-wrapper-two {
+  height: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-wrapper-one {
+  padding-top: 6rem;
+  margin-bottom: 25rem;
+}
+
+.portfolio-wrapper-two {
+  padding-bottom: 14rem;
+}
+
+/*  ..........article  */
+
+.portfolio article {
+  background-position: center;
+}
+
+.development,
+.branding {
+  height: 90rem;
+  width: 65rem;
+  /* position: relative; */
+}
+
+.creative,
+.webdesign {
+  height: 60rem;
+  width: 44rem;
+  margin-top: 20%;
+}
+
+.portfolio article p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.portfolio article div {
+  width: 40%;
+  margin: 10% 0 0 10%;
+  /* display: none; */
+  /* position: absolute; */
+}
+
+.development:hover .hover-text {
+  display: 1;
+}
+
+/* # hover effect & richtiger bereich kleine bilder fehlen noch */
+
+/* * ---------- service section ---------- */
+
 /* * ---------- video section ---------- */
 
 .video-wrapper {
