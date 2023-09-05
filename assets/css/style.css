@@ -409,26 +409,27 @@ nav {
 
 .service-content {
   margin: 0 auto;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(3, 33.3%);
   padding-top: 10%;
   border-bottom: 1px solid #3f3a36;
+  position: relative;
 }
 
-.left-img-wrapper img {
+.left-img {
   /* width: 33rem;
   height: 45.2rem; */
-
+  position: absolute;
   width: auto;
   height: 55%;
   left: 0;
   top: 35%;
 }
 
-.right-img-wrapper img {
+.right-img {
   /* width: 22rem;
   height: 28.5rem; */
-
+  position: absolute;
   width: auto;
   height: 45%;
   right: 0;
@@ -439,32 +440,28 @@ nav {
   display: grid;
   gap: 10%;
   margin-bottom: 50%;
+  cursor: pointer;
 }
 
 /* - hover effect - */
 
-.text {
-  cursor: pointer;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.image {
-  position: absolute;
+.service-types img {
   display: none;
 }
 
-.text:hover + .service-wrapper .image-container .image[data-image="1"],
-.text:hover + .service-wrapper .image-container .image[data-image="2"],
-.text:hover + .service-wrapper .image-container .image[data-image="3"],
-.text:hover + .service-wrapper .image-container .image[data-image="4"] {
+.service-types h2:hover {
+  color: #e8bf96;
+  transition: 0.3s;
+}
+
+.service-type-costume:hover img,
+.service-type-acting:hover img,
+.service-type-modelling:hover img,
+.service-type-artist:hover img {
   display: block;
 }
 
-/* # hover effekte bilder und font color fehlen noch */
+/* # bilder noch an falscher stelle */
 
 /* * ---------- blogs section ---------- */
 
