@@ -572,3 +572,79 @@ nav {
 }
 
 /* * ---------- footer ---------- */
+
+footer {
+  height: 30rem;
+  padding: 4%;
+  border-top: 0.1rem solid #3f3a36;
+}
+
+.footer-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 2.2fr 4.5fr;
+  gap: 12%;
+}
+
+footer img {
+  height: auto;
+}
+
+.links-wrapper-one,
+.links-wrapper-two {
+  width: 10rem;
+  font-size: 1.8rem;
+  line-height: 180%;
+}
+
+.social-links-wrapper a {
+  font-size: 1.7rem;
+}
+
+.social-links-wrapper {
+  display: grid;
+  width: 20rem;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.social-links-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.social-line {
+  width: 50%;
+  color: #999;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.email-submit {
+  width: 42rem;
+}
+
+#email {
+  width: 42rem;
+  background-color: #272422;
+  border-style: none;
+}
+
+.mail {
+  border-bottom: 0.1rem solid #3c3636;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+}
+
+#submit {
+  font-size: 1.5rem;
+  width: 14rem;
+  height: 6.5rem;
+  color: #fff;
+  background-color: #272422;
+  border: 0.1rem solid #3c3636;
+  border-radius: 8.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
