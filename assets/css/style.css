@@ -344,6 +344,29 @@ nav {
 
 /* * ---------- service section ---------- */
 
+.service-top {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 4.3rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 0.1rem solid #3f3a36;
+}
+
+.service-top p:nth-child(1),
+.service-top p:nth-child(3) {
+  color: #fff;
+}
+.service-top p:nth-child(2) {
+  font-size: 1.3rem;
+}
+
+.service-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 /* * ---------- video section ---------- */
 
 .video-wrapper {
