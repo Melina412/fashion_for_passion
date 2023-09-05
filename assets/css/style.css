@@ -66,6 +66,7 @@ button {
   border: 0.1rem solid #3c3636;
   border-radius: 8.4rem;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .menu li {
@@ -439,6 +440,9 @@ nav {
 .blogs-top p {
   width: 45%;
 }
+.blogs-top a {
+  height: 9rem;
+}
 
 .blogs-top-left {
   display: flex;
@@ -470,9 +474,37 @@ nav {
   width: 100vw;
   height: 80rem;
   overflow: hidden;
+  position: relative;
 }
 
 .video video {
   width: 100%;
   height: auto;
+  position: absolute;
 }
+
+.video-text {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 40%;
+  right: 5%;
+  bottom: 5%;
+}
+
+/* # position video text (h3 mit clamp??) */
+
+.video h3 {
+  text-align: end;
+}
+
+.video p {
+  color: #fff;
+  width: 80%;
+}
+
+/* # richtiger videoausschnitt */
+
+/* * ---------- award section ---------- */
