@@ -1,3 +1,10 @@
+/* # Es fehlen noch:
+
+# - hover effekte bilder service section
+# - richtiger ausschnitt videos
+# - media queries tablet & mobile
+# - css code zusammenfassen, html aktualisieren */
+
 * {
   margin: 0;
   padding: 0;
@@ -377,8 +384,6 @@ nav {
 
 /* # hover effect & richtiger bereich kleine bilder fehlen noch */
 
-/* # bildgröße in relative einheiten ändern */
-
 /* * ---------- service section ---------- */
 
 .service-top {
@@ -441,8 +446,6 @@ nav {
   margin-bottom: 50%;
 }
 /* # hover effekte bilder und font color fehlen noch */
-
-/* # bildgröße in relative einheiten ändern */
 
 /* * ---------- blogs section ---------- */
 
