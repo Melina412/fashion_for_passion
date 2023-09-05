@@ -508,3 +508,40 @@ nav {
 /* # richtiger videoausschnitt */
 
 /* * ---------- award section ---------- */
+
+.award {
+  margin-top: 10rem;
+}
+
+.award-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.award-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.award h2 {
+  width: 70%;
+  margin-bottom: 5rem;
+}
+
+.award-text p:first-child {
+  width: 30%;
+}
+
+.award-logo-wrapper {
+  width: 20rem;
+}
+
+.award span {
+  font-size: 1.9rem;
+  color: #fff;
+  line-height: 2.7rem;
+}
+
+.award-logo {
+  margin-bottom: 2rem;
+}
