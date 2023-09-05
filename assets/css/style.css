@@ -335,19 +335,20 @@ nav {
 
 .portfolio article {
   background-position: center;
+  background-size: cover;
 }
 
 .development,
 .branding {
-  height: 90rem;
-  width: 65rem;
+  height: 90%;
+  width: 50%;
   /* position: relative; */
 }
 
 .creative,
 .webdesign {
-  height: 60rem;
-  width: 44rem;
+  height: 62%;
+  width: 33%;
   margin-top: 20%;
 }
 
@@ -356,11 +357,18 @@ nav {
   color: #fff;
 }
 
-.portfolio article div {
+.development div,
+.branding div {
   width: 40%;
   margin: 10% 0 0 10%;
   /* display: none; */
   /* position: absolute; */
+}
+
+.creative div,
+.webdesign div {
+  width: 40%;
+  margin: 20% 0 0 10%;
 }
 
 .development:hover .hover-text {
