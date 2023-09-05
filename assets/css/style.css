@@ -545,3 +545,30 @@ nav {
 .award-logo {
   margin-bottom: 2rem;
 }
+
+/* * ---------- contact section ---------- */
+
+.contact-top {
+  width: 80vw;
+  margin: 0 auto;
+  border-bottom: 0.1rem solid #3f3a36;
+  height: 4.3rem;
+  padding-bottom: 1.7rem;
+  font-size: 1.8rem;
+}
+
+.contact-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.contact-text {
+  width: 60%;
+  margin: 8rem auto 15rem auto;
+}
+
+.contact h2 {
+  margin-bottom: 5rem;
+}
+
+/* * ---------- footer ---------- */
