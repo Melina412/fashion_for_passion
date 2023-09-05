@@ -1,6 +1,5 @@
 /* # Es fehlen noch:
 
-# - hover effekte bilder service section
 # - richtiger ausschnitt videos
 # - media queries tablet & mobile
 # - css code zusammenfassen, html aktualisieren */
@@ -343,6 +342,7 @@ nav {
 .portfolio article {
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .development,
@@ -367,17 +367,26 @@ nav {
 .branding div {
   width: 40%;
   margin: 10% 0 0 10%;
-  /* display: none; */
-  /* position: absolute; */
+  display: none;
+  position: absolute;
 }
 
 .creative div,
 .webdesign div {
   width: 40%;
   margin: 20% 0 0 10%;
+  display: none;
+  position: absolute;
 }
 
-/* # hover effect text*/
+/* - hover effect - */
+
+.development:hover .hover-text,
+.creative:hover .hover-text,
+.webdesign:hover .hover-text,
+.branding:hover .hover-text {
+  display: block;
+}
 
 /* * ---------- service section ---------- */
 
@@ -432,7 +441,7 @@ nav {
   margin-bottom: 50%;
 }
 
-/* * ---------- hover effect ---------- */
+/* - hover effect - */
 
 .text {
   cursor: pointer;
